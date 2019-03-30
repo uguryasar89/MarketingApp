@@ -17,7 +17,8 @@ Alışveriş uygulamasını geliştirebilmek için aşağıda listelenmiş uygul
 ### Frontend Kurulumları
 * [NodeJS](https://nodejs.org/en/)
 * [Visual Studio Code](https://code.visualstudio.com)
-* 
 
 ### Diğer Kurulumlar
 * [Git](https://git-scm.com)
+* [GitKraken](https://www.gitkraken.com/download) 
+  > yada favori git client([SourceTree](https://www.sourcetreeapp.com) vs) uygulamanız.
