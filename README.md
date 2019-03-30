@@ -8,7 +8,7 @@ Alışveriş uygulamasını geliştirebilmek için aşağıda listelenmiş uygul
 
 ### Backend Kurulumları
 * [JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-* [Eclipse](https://www.eclipse.org/downloads/packages/release/kepler/sr2/eclipse-ide-java-ee-developers) yada [IntelliJ IDEA](https://www.jetbrains.com/idea/download/#section=linux)
+* [STS - Spring Tool Suite](https://spring.io/tools3/sts/all) yada [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
   > Ben alıştığım için yazılım geliştirirken Eclipse üzerinden geliştirme yapacağım. Katılımcılara da Eclipse üzerinden anlatım yapacağım.
 * [PostgreSQL](https://www.postgresql.org/download/)
 * [Maven](https://maven.apache.org/download.cgi)
