@@ -9,8 +9,9 @@ Alışveriş uygulamasını geliştirebilmek için aşağıda listelenmiş uygul
 ### Backend Kurulumları
 * [JDK 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 * [STS - Spring Tool Suite](https://spring.io/tools3/sts/all) yada [IntelliJ IDEA](https://www.jetbrains.com/idea/download)
-  > Ben alıştığım için yazılım geliştirirken Eclipse üzerinden geliştirme yapacağım. Katılımcılara da Eclipse üzerinden anlatım yapacağım.
-* [PostgreSQL](https://www.postgresql.org/download/)
+  > Ben alıştığım için yazılım geliştirirken STS(Eclipse) üzerinden geliştirme yapacağım. Katılımcılara da STS üzerinden anlatım yapacağım.
+  > Öğrenci iseniz IntelliJ IDEA'nın lisanslı sürümünü [buradan](https://www.jetbrains.com/student/) ücretsiz alabilirsiniz.
+* [Mysql Workbench](https://dev.mysql.com/downloads/workbench/)
 * [Maven](https://maven.apache.org/download.cgi)
 * [Postman](https://www.getpostman.com/downloads/)
 
@@ -22,3 +23,5 @@ Alışveriş uygulamasını geliştirebilmek için aşağıda listelenmiş uygul
 * [Git](https://git-scm.com)
 * [GitKraken](https://www.gitkraken.com/download) 
   > yada favori git client([SourceTree](https://www.sourcetreeapp.com) vs) uygulamanız.
+* Online veritabanı için [remotemysql'den](https://remotemysql.com) veya [db4free'den](https://www.db4free.net)  hesap oluşturabilirsiniz.
+  > Kursun ilerleyen safhalarında Docker ile kendi bilgisayarlarımızda veritabanı kurulumunu yapacağız ve uygulamamızın bu veritabanını kullanması için ayarlayacağız.
