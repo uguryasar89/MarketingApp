@@ -26,3 +26,15 @@ Alışveriş uygulamasını geliştirebilmek için aşağıda listelenmiş uygul
   > yada favori git client([SourceTree](https://www.sourcetreeapp.com) vs) uygulamanız.
 * Online veritabanı için [remotemysql'den](https://remotemysql.com) veya [db4free'den](https://www.db4free.net)  hesap oluşturabilirsiniz.
   > Kursun ilerleyen safhalarında Docker ile kendi bilgisayarlarımızda veritabanı kurulumunu yapacağız ve uygulamamızın bu veritabanını kullanması için ayarlayacağız.
+
+## Komutlar
+### Maven
+* Projeyi **derlemek** için aşağdıaki komutu kullanabilirsiniz.
+    ```
+    mvn clean install
+    ```
+* Projeyi **çalıştırmak** için aşağıdaki komutu kullanabilirsiniz.
+    ```
+    java -jar marketing-controller/target/marketing-controller-1.0-SNAPSHOT.jar
+    ```
+**Not:** Üstteki komutların her ikisini de çalıştırabilmeniz için terminalde proje dizininin(MarletingApp) içerisinde olmanız gerekiyor. 
