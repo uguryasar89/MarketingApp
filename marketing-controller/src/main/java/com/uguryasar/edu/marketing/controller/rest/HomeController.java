@@ -1,10 +1,12 @@
 package com.uguryasar.edu.marketing.controller.rest;
 
+import com.uguryasar.edu.marketing.controller.dto.CustomerDto;
+import com.uguryasar.edu.marketing.controller.dto.CustomerRequestDto;
 import com.uguryasar.edu.marketing.controller.dto.StatusDto;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController // Bu sınıfın metodlarının Rest servisi yapar.
+@RequestMapping("/home")
 public class HomeController {
 
     @GetMapping("/") // Bu metoda "/" adresi ile erişilmesini sağlar.
@@ -20,6 +22,23 @@ public class HomeController {
         status.setMessage("application is up");
 
         return status;
+    }
+
+    @PostMapping("/queryCustomerByName")
+    public CustomerDto queryCustomerByName(@RequestBody CustomerRequestDto requestDto) {
+
+        if ("Uğur".equals(requestDto.getName())) {
+            CustomerDto response = new CustomerDto();
+            response.setCustomerID(123);
+            response.setCustomerName("Uğur Yaşar");
+            response.setCustomerAddress("İstanbul");
+
+            return response;
+
+
+        }
+
+        return null;
     }
 
 }
