@@ -20,6 +20,7 @@
 
     <modules>
         <module>marketing-controller</module>
+        <module>marketing-services</module>
     </modules>
 
 

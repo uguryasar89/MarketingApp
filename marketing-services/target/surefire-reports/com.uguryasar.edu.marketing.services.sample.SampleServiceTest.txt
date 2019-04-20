@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.uguryasar.edu.marketing.services.sample.SampleServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.868 s <<< FAILURE! - in com.uguryasar.edu.marketing.services.sample.SampleServiceTest
+testGetItemCountByBrand(com.uguryasar.edu.marketing.services.sample.SampleServiceTest)  Time elapsed: 0.098 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.uguryasar.edu.marketing.services.sample.SampleServiceTest.testGetItemCountByBrand(SampleServiceTest.java:20)
+
