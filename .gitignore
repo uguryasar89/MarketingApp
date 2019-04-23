@@ -26,4 +26,4 @@ hs_err_pid*
 
 MarketingApp\.iml
 
-marketing-controller/target/
+*/target/
